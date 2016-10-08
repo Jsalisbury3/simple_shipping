@@ -2,65 +2,28 @@
 
 ## Code Setup Details
 
-#####1. Open PHPStorm
-
-#####2. Fork This Repo - IMPORTANT Do this first
-
->- Click on the <kbd> **Fork** </kbd> button in the top right of the page
-
-#####3. Clone This Repo
->1. **After** Forking
-1. In your terminal verify you are in the proper directory
-  1. You should be in your `lfz` directory
-  1. To check your directory type `pwd` then press <kbd>Enter </kbd>
-    1. You should see something along the lines of:
-    1. `/Applications/MAMP/htdocs/lfz`
-    1. If you are not in the proper directory navigate to the `lfz` folder, if you're not sure how, contact an instructor
-1. Enter the following command into the terminal to clone the `shipping_calculator` repo
-  1. `git clone https://github.com/[Your User Name]/shipping_calculator.git`
-
-#####4. Navigate to shipping_calculator
-
-> Insert this command in the terminal tab
-
-> `cd shipping_calculator` & press enter
-
->- this changes the directory to the `shipping_calculator` folder
-- If you get an error with the above command its probably because you are already within the correct directory
-- *Reminder* - You can use `pwd` to check your current directory
-
-#####5. Create a feature grouping (*Create feature branch*)
-
-> Insert & execute these command in the terminal tab individually
-
->`git checkout master` & press <kbd>Enter </kbd>
->- The command above switches to the default branch
-
->`git checkout -b v0.1` & press <kbd>Enter </kbd>
->- Creating this feature groupings allow users to modify code without causing issues with the current functioning code.
-- Any modifications to these files after <b>branching</b> can be undone
-- "v0.1" is the branch name.
+#####1. Download the files
+> Click on the green "clone or download" button on the top right of the github page
+> Click on "download ZIP"
+> Download the file to a folder on your computer
+> Double click on it to expand it.
+> Use an IDE (editor) to view/modify the file
+- <a href="https://sublimetext.com/2" target="_blank">Sublime</a>
+- <a href="https://atom.io/" target="_blank">Atom</a>
+- <a href="https://www.visualstudio.com/free-developer-offers/" target="_blank">Visual Tools</a>
 
 ## Coding Instructions
 
 ### Layout Scope
->- Create a text input 
+>- Create a text input <a href="http://www.w3schools.com/tags/tag_input.asp" target="_blank">info</a>
     - Purpose: will hold the weight of the package to be shipped
-    - give it an ID
-    - give it a placeholder of "weight of package in pounds"
-- Create 3 radio buttons.
-    - give them all the same name attribute
-    - give them the same class
-    - give each a label tag that is associated with each one individually (make sure look up labels and how they use an input's ID. 
-  - The 3 radio buttons will have the following labels and values
-    - label - 5 day, value - 5  - make this the default
-    - label - 3 day, value - 3
-    - label - 2 day, value - 2
+    - give it an ID of "weight_input" <a href="http://www.w3schools.com/tags/att_global_id.asp" target="_blank">info</a>
+    - give it a placeholder of "weight of package in pounds" <a href="" target="_blank">info</a>
   - button
     - label: calculate
-    - give it an id
+    - give it an ID of "calculate_button"
   - create a div
-    - give it an ID
+    - give it an ID of "display_div"
     - purpose - display the shipping information of the package (the weight in ounces, the price of shipping, and the expected arrival date
   
 <a href="https://github.com/Learning-Fuze/shipping_calculator/blob/master/design.png" target="_blank"><img src="https://github.com/Learning-Fuze/shipping_calculator/blob/master/design.png" height='300px'></a>
