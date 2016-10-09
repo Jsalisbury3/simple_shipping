@@ -29,19 +29,13 @@
 <a href="https://github.com/Learning-Fuze/shipping_calculator/blob/master/design.png" target="_blank"><img src="https://github.com/Learning-Fuze/shipping_calculator/blob/master/design.png" height='300px'></a>
 
 ### Functional Scope
->- create the following global variable:
-  - shipping_time
-    - purpose: storage for what the current shipping time is
-    - initial value: 5
-- create the following functions:
+- create the following functions: <a href="" target="_blank">info</a>
     - apply_event_handlers
       - name: apply_event_handlers
       - purpose: will add event handlers to all of the appropriate elements
       - params: none
       - return: none
       - details:
-        - add a keydown handler to the text input that calls "validate_keydown" 
-        - add a click handler to the radio buttons (all of them) that calls "change_shipping_type"
         - add a click handler to the button that calls "display_shipping"
     - validate_keydown
       - name: apply_event_handlers
