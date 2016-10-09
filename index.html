@@ -10,19 +10,38 @@
    <!--add div here -->
 </body>
 	<script>
+    //for help to figure out this code, make sure to email instructors@learningfuze.com
     function apply_click_handlers(){
-      //add a click handler to the button element.  You can use the tagname "button", or the ID calculate_button
-      //see here for an example of how to apply a click handler:  http://www.w3schools.com/jquery/
-      //in the click handler, call the function "calculate_shipping"  http://www.w3schools.com/js/js_function_invocation.asp
+	//add a click handler to the button element.  You can use the tagname "button", or the ID calculate_button
+	//see here for an example of how to apply a click handler:  http://www.w3schools.com/jquery/
+	//in the click handler, call the function "calculate_shipping"  http://www.w3schools.com/js/js_function_invocation.asp
       
     }
     
     function calculate_shipping(){
-      //
+      	//get the value from the input.  you can either use "input" or the input's id, "#weight_input", and store it into a variable
+      		//variables and storing: http://www.w3schools.com/js/js_variables.asp
+      		//getting the value of an inputs: http://www.w3schools.com/jquery/html_val.asp
+	    
+	//the value from the input is a string, convert it to a number with parseInt, and store it into the original var from above
+	    //parseInt info: http://www.w3schools.com/jsref/jsref_parseint.asp
+	//multiply the value from above by 16 to convert he pounds to ounces, store it into a variable
+	//write an if statement.  http://www.w3schools.com/js/js_if_else.asp
+	    //if the weight from above is < 10 ounces
+	    	//multiply the weight by .20 to get the shipping cost, and store it in the variable "cost"
+	    //else if the weight is < 30 ounces
+	    	//multiply the weight by .40 to get the shipping cost, and store it in the variable "cost"
+	    //else
+	    	//multiply the weight by .60 to get the shipping cost, and store it in the variable "cost"
+	    
+	//call the function display_shipping:  http://www.w3schools.com/js/js_functions.asp
+	    //pass the "cost" variable into the function as a parameter: http://www.w3schools.com/js/js_function_parameters.asp
     }
     
-    function display_shipping(){
-    
+    function display_shipping(cost){
+	//the variable cost above is passed in from when the function was called above.  it behaves exactly like a normal variable
+    	//using a jquery selector, change the text of the div (id display_div) to the variable cost
+	    //http://www.w3schools.com/jquery/html_text.asp
     }
 
 		
