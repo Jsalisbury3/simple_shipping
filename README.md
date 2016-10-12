@@ -17,7 +17,7 @@
 
 ### Layout Scope
 >- Create a text input <a href="http://www.w3schools.com/tags/tag_input.asp" target="_blank">info</a>
-    - Purpose: will hold the weight of the package to be shipped
+    - Purpose: will allow the entry of the weight of the package
     - give it an ID of "weight_input" <a href="http://www.w3schools.com/tags/att_global_id.asp" target="_blank">info</a>
     - give it a placeholder of "weight of package in pounds" <a href="" target="_blank">info</a>
   - button
