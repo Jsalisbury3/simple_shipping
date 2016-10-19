@@ -17,15 +17,15 @@
 
 ### Layout Scope
 >- Create a text input <a href="http://www.w3schools.com/tags/tag_input.asp" target="_blank">info</a>
-    - Purpose: will allow the entry of the weight of the package
+    - Purpose: will allow the entry of the weight of the package (you don't need to do anything for this, I'm just telling you what it will be used for)
     - give it an ID of "weight_input" <a href="http://www.w3schools.com/tags/att_global_id.asp" target="_blank">info</a>
     - give it a placeholder of "weight of package in pounds" <a href="http://www.w3schools.com/tags/att_input_placeholder.asp" target="_blank">info</a>
 > - Create a button
-    - label: calculate
+    - text: calculate
     - give it an ID of "calculate_button"
 > - Create a div
     - give it an ID of "display_div"
-    - purpose - display the shipping information of the package (the weight in ounces, the price of shipping, and the expected arrival date
+    - Purpose: display the shipping information of the package (the weight in ounces, the price of shipping, and the expected arrival date (you don't need to do anything for this, I'm just telling you what it will be used for)
 
 ### Functional Scope
 - create the following functions: <a href="http://www.w3schools.com/js/js_functions.asp" target="_blank">info</a>
