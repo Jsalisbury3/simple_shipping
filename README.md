@@ -19,7 +19,7 @@
 >- Create a text input <a href="http://www.w3schools.com/tags/tag_input.asp" target="_blank">info</a>
     - Purpose: will allow the entry of the weight of the package
     - give it an ID of "weight_input" <a href="http://www.w3schools.com/tags/att_global_id.asp" target="_blank">info</a>
-    - give it a placeholder of "weight of package in pounds" <a href="" target="_blank">info</a>
+    - give it a placeholder of "weight of package in pounds" <a href="http://www.w3schools.com/tags/att_input_placeholder.asp" target="_blank">info</a>
   - button
     - label: calculate
     - give it an ID of "calculate_button"
@@ -28,7 +28,7 @@
     - purpose - display the shipping information of the package (the weight in ounces, the price of shipping, and the expected arrival date
 
 ### Functional Scope
-- create the following functions: <a href="" target="_blank">info</a>
+- create the following functions: <a href="http://www.w3schools.com/js/js_functions.asp" target="_blank">info</a>
     - apply_event_handlers
       - name: apply_event_handlers
       - purpose: will add event handlers to all of the appropriate elements
