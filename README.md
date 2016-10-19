@@ -30,6 +30,7 @@
 
 ### Functional Scope
 - create the following functions: <a href="http://www.w3schools.com/js/js_functions.asp" target="_blank">info</a>
+* The functions have already been made for you, but they are empty.  You must fill them with the appropriate content *
     - apply_event_handlers
       - name: apply_event_handlers
       - purpose: will add event handlers to all of the appropriate elements
