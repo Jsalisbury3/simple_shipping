@@ -19,7 +19,7 @@
 <a href="http://www.w3schools.com/html/html_elements.asp" target="_blank">General info on html elements/tags</a>
 >- Create a text input <a href="http://www.w3schools.com/tags/tag_input.asp" target="_blank">info</a>
     - Purpose: will allow the entry of the weight of the package (you don't need to do anything for this, I'm just telling you what it will be used for)
-    - give it an ID <em>attribute</em> (<a href="http://www.w3schools.com/html/html_attributes.asp" target="_blank">attribute info</a> of "weight_input" <a href="http://www.w3schools.com/tags/att_global_id.asp" target="_blank">info</a>
+    - give it an ID <em>attribute</em> (<a href="http://www.w3schools.com/html/html_attributes.asp" target="_blank">attribute info</a>) of "weight_input" <a href="http://www.w3schools.com/tags/att_global_id.asp" target="_blank">info</a>
     - give it a placeholder <em>attribute</em> of "weight of package in pounds" <a href="http://www.w3schools.com/tags/att_input_placeholder.asp" target="_blank">info</a>
 > - Create a button
     - text: calculate
